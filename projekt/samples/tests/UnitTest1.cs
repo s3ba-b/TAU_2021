@@ -1,5 +1,6 @@
 using System;
 using Xunit;
+using lib;
 
 namespace tests
 {
@@ -8,7 +9,7 @@ namespace tests
         [Fact]
         public void Test1()
         {
-
+            new Client().Main();
         }
     }
 }
