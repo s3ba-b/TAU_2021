@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using lib;
+using Moq;
 
 namespace tests
 {
